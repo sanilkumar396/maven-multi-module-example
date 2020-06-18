@@ -12,16 +12,16 @@
     <scm>
     <connection>scm:https://github.com/sanilkumar396/maven-multi-module-example.git</connection>
         <url>https://github.com/sanilkumar396/maven-multi-module-example.git</url>
-        <developerconnection>scm:git:https://github.com/sanilkumar396/maven-multi-module-example.git</developerconnection>   
+        <developerConnection>scm:git:https://github.com/sanilkumar396/maven-multi-module-example.git</developerConnection>   
     </scm>
     <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://18.221.159.206:8081/nexus/content/repositories/snapshots</url>
+    <url>http://18.224.109.117:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
         <repository>
     <id>releases</id>
-    <url>http://18.221.159.206:8081/nexus/content/repositories/releases</url>
+    <url>http://18.224.109.117:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
     <build>
